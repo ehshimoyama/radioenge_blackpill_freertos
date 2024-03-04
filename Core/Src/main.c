@@ -25,7 +25,7 @@
 /* USER CODE BEGIN Includes */
 
 /* USER CODE END Includes */
-/* EHS */
+/* EHS teste*/
 
 /* Private typedef -----------------------------------------------------------*/
 typedef StaticTask_t osStaticThreadDef_t;
