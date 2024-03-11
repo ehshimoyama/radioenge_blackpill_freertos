@@ -79,7 +79,7 @@ void SetRadioState(RADIO_STATE state)
 void ModemLedCallback(void *argument) 
 {
     //here we use gRadioState without semaphore because a preemption will only cause a momentary led glitch    
-    switch(gRadioState)
+    /*switch(gRadioState)
     {
     case RADIO_RESET:
     {
@@ -129,7 +129,7 @@ void ModemLedCallback(void *argument)
         HAL_GPIO_TogglePin(LED4_BLUE_GPIO_Port, LED4_BLUE_Pin);        
         break;       
     }    
-    }
+    }*/
 }
 
 
